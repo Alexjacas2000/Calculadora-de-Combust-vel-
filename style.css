@@ -1,0 +1,60 @@
+body{
+  font-family: roboto;
+  color: #cccccc;
+  margin: 20px;
+  background-image: url('https://www.mundialnegocios.com.br/upload/blog/aMY2igr1Ye6z4ESh9dk8B6cwR2fJJoIAHmss8b3l.jpg') ;
+  backgroud-size: cover;
+}
+
+h1{
+  color: #fdcb29;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,5);
+  min-width: 450px;
+}
+.Logo{
+  height: 35px;
+  vertical-alingn: center;
+  float: right;
+}
+.Conteiner{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 15px;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 100px 1fr 50px;
+  grid-gap: 10px;
+  margin: auto;
+}
+
+label{
+  grid-column: 1/2;
+  text-align: right;
+}
+
+input{
+  grid-column: 2/3;
+  text-align: right;
+}
+
+.unit{
+  grid-column: 3/4;
+  text-align: left;
+}
+
+button{
+  grid-column: 2/3;
+  background-color: #fdcb29;
+  border: none;
+  font-weight: bold;
+}
+
+.Conteudo{
+  grid-column: 1/4;
+  text-align: center;
+  color: #fdcb29;
+  font-weight: bold;
+}
